@@ -1,0 +1,19 @@
+Security Risk Assessment – Mobile Banking Application
+1. Executive Summary
+This report assesses the main cyber security risks associated with a mobile banking application. Mobile banking allows customers to check balances, transfer funds, pay bills and manage personal financial information through smartphones. Because these systems process sensitive financial and personal data, they can be attractive targets for cybercriminals. The report identifies major threats including phishing, malware, weak authentication, data breaches and insecure software. It also recommends three key security measures: multi-factor authentication, encryption, and continuous security monitoring and software updates. These measures can reduce the likelihood and impact of unauthorized access and data theft.
+2. System/Scenario Overview
+A mobile banking application allows customers to access banking services remotely through smartphones and other mobile devices. Users normally authenticate themselves using usernames, passwords, biometric identification or security codes. The application communicates with the bank's servers over the internet and handles information such as customer names, account numbers, transaction histories and payment details. Customers may use the system to transfer money, make payments and manage their accounts. Because the application relies on internet connections, mobile devices, banking servers and user authentication, weaknesses in any of these areas could create security risks.
+3. Identified Threats & Vulnerabilities
+Phishing attacks: Cybercriminals may send fraudulent emails, text messages or links pretending to come from the bank. Customers may be tricked into providing passwords, card information or authentication codes.
+Malware: Malicious software may be installed on a customer's mobile device through unsafe applications, websites or attachments. Malware could record passwords, monitor activity or steal banking information.
+Weak passwords and authentication: Customers who use simple or repeated passwords are more vulnerable to account compromise. If authentication relies only on a password, stolen login details may allow an attacker to access an account.
+Data breaches: Attackers may target the bank's servers or databases to obtain sensitive customer information. A successful breach could expose personal information, account details and financial records.
+Software vulnerabilities: Outdated applications, operating systems or insecure APIs may contain weaknesses that attackers can exploit to gain unauthorized access or manipulate transactions.
+4. Recommendations
+Three main security measures are recommended.
+Multi-factor authentication (MFA) should be required for account access and sensitive transactions. This provides an additional layer of protection if a password is stolen.
+Encryption should protect sensitive information while it is stored and while it is transmitted between the customer's device and the bank's systems. This reduces the usefulness of intercepted or stolen data.
+Continuous monitoring and regular security updates should also be implemented. Banks should monitor unusual login attempts and transactions, regularly patch security vulnerabilities, and test their systems. Customers should also receive guidance about recognizing phishing messages and avoiding suspicious links or applications.
+5. Conclusion
+Mobile banking applications provide convenient financial services but also create significant cyber security risks. Phishing, malware, weak authentication, data breaches and software vulnerabilities can result in financial loss and exposure of sensitive information. Using multi-factor authentication, encryption and continuous security monitoring can significantly reduce these risks. Regular security reviews are also necessary because cyber threats continue to evolve.
+
