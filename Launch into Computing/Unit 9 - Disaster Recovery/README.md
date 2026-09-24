@@ -1,0 +1,19 @@
+## Disaster Recovery Plan for a Cloud-Based E-Commerce Organization
+
+This report considers a hypothetical e-commerce company, Nova Mart, whose offices and employees are based separately from its primary data center in Dubai. The company depends on the data center to host its website, customer database, order-processing system, inventory records and other business applications. The disaster scenario assumes that the primary data center is severely damaged by a physical strike. Employees and offices remain operational, but the systems hosted in the data center become immediately unavailable.
+
+The main risk is the sudden loss of the primary computing environment. This could prevent customers from accessing the website, placing orders or making payments. Employees may also lose access to customer records, inventory information and internal systems. Other risks include data loss, database corruption, interrupted transactions and possible cyberattacks taking advantage of the disruption. Extended downtime could result in financial losses, reputational damage and reduced customer confidence.
+
+The first step in the disaster recovery strategy is detection and assessment. Monitoring systems should identify that the primary environment is unavailable and automatically alert the IT team. The incident manager would then declare a disaster and activate the disaster recovery plan.
+
+The second step is to activate a geographically separate recovery environment. A technology such as AWS Elastic Disaster Recovery could maintain replicated copies of critical servers in another region. The recovery environment should not depend on the damaged data center. Critical systems would then be restored in priority order, beginning with databases, authentication services, order processing, payment integration and finally the customer-facing website.
+
+If replicated systems are unavailable or their data is damaged, Nova Mart could restore information from secure backups using a tool such as Bacula. Backups should be encrypted, regularly tested and stored separately from the production environment.
+
+Before recovered systems are made available, the IT team must verify data integrity. Database records should be checked to ensure that customer accounts, orders, inventory and financial transactions are complete and accurate. Checksums, database consistency checks and transaction logs can help identify corruption or missing information. The organization should also check for duplicate transactions caused by the interruption.
+
+Recovery performance should be measured against predefined Recovery Time Objectives and Recovery Point Objectives. For example, an RTO of two hours would mean critical systems should be restored within two hours. An RPO of five minutes would mean that no more than five minutes of recent transaction data should be lost. If a disaster recovery test exceeds either target, the organization should improve its replication, backup or recovery processes.
+
+Legal, ethical and professional responsibilities are also important. Personal and financial information must remain protected during recovery, with encryption and access limited to authorized staff. If customer information is exposed or lost, the organization must assess whether data-protection notification requirements apply. Ethically, customers should receive accurate information about significant service interruptions without misleading statements. Professionally, the recovery plan should be documented, tested regularly and reviewed after every major incident.
+
+This scenario demonstrates that effective disaster recovery does not depend on repairing the damaged data center. Its purpose is to allow the organization to continue operating by restoring systems and data from an independent recovery environment.

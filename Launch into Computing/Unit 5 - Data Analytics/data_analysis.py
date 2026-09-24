@@ -65,7 +65,6 @@ country_revenue = (
 
 print("Original dataset size:", original_size)
 print("Cleaned dataset size:", cleaned_size)
-
 print("\nSales Analysis:")
 print("Mean Quantity:", mean_quantity)
 print("Median Quantity:", median_quantity)
@@ -82,32 +81,27 @@ print("\nTop 10 Countries by Revenue:")
 print(country_revenue)
 
 plt.figure(figsize=(10, 6))
-
 plt.plot(
     monthly_revenue.index,
     monthly_revenue.values,
     marker='o'
 )
-
 plt.xlabel("Month")
 plt.ylabel("Revenue")
 plt.title("Monthly Online Retail Revenue")
 plt.xticks(rotation=45)
 plt.grid()
-
 plt.tight_layout()
 plt.savefig("monthly_revenue.png")
 plt.show()
 
+
 plt.figure(figsize=(10, 6))
-
 country_revenue.plot(kind='bar')
-
 plt.xlabel("Country")
 plt.ylabel("Revenue")
 plt.title("Top 10 Countries by Revenue")
 plt.xticks(rotation=45)
-
 plt.tight_layout()
 plt.savefig("country_revenue.png")
 plt.show()
