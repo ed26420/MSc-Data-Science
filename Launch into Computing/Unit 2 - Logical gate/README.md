@@ -32,82 +32,9 @@ In high-security banking infrastructure, major financial systems use redundancy 
 
 Using a majority voting circuit ($Y = AB + BC + AC$), the system evaluates the three outputs. Since Boolean A and B both output 1, the majority wins, and access is successfully granted, preventing a false lockout due to a minor glitch.
 
+![Circut Diagram](graph_1.png)
 
-
-
-Input A
-
-Input B
-
-Input C
-
-Output (Y)
-
-0
-
-0
-
-0
-
-0
-
-0
-
-0
-
-1
-
-0
-
-0
-
-1
-
-0
-
-0
-
-0
-
-1
-
-1
-
-1
-
-1
-
-0
-
-0
-
-0
-
-1
-
-0
-
-1
-
-1
-
-1
-
-1
-
-0
-
-1
-
-1
-
-1
-
-1
-
-1
-
-
+![Input](graph_2.png)
 
 References
 
